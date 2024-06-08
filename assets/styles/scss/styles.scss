@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 html {
     font-family: "Montserrat", sans-serif;
@@ -45,43 +46,27 @@ footer {
  
 } 
 
-/* .navbar li {
-    float: right;
-}
-
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: rgb(242, 179, 19);
-    color: black;
-} */
 
 /* BACKGROUNDS */
 
 .cerezo {
-    background-image: url("./../images/cerezoJapones.png");
+    background-image: url("/assets/images/cerezoJapones.png");
     height:100vh;
 }
 
 .romero {
-    background-image: url("./../images/romero.png");
+    background-image: url("/assets/images/romero.png");
     height:100vh;
 
 }
 
 .skyline {
-    background-image: url("./../images/skyline.png");
+    background-image: url("/assets/images/skyline.png");
     height:100vh;
 }
 
 .bubbles {
-    background-image: url("./../images/bubbles.png");
+    background-image: url("/assets/images/bubbles.png");
     height:100vh;
 }
 

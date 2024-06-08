@@ -1,0 +1,25 @@
+{
+  "name": "preentrega3-fraga",
+  "version": "1.0.0",
+  "description": "lo+ Arte Studio sitio - DW proyecto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N3fia/PreEntrega3-Fraga.git"
+  },
+  "keywords": [
+    "art",
+    "kids",
+    "workshop",
+    "color"
+  ],
+  "author": "N3fia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N3fia/PreEntrega3-Fraga/issues"
+  },
+  "homepage": "https://github.com/N3fia/PreEntrega3-Fraga#readme"
+}
