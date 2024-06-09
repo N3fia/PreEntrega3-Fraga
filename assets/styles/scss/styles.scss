@@ -19,7 +19,7 @@ body {
 }
 main {
     font-family: "Montserrat", sans-serif;
-    /* display: flex; */
+    
 }
 
 
@@ -154,27 +154,26 @@ footer {
 }
 
 .titulo {
-    justify-self: center;
+    // justify-self: center;
+    text-align: center;
 }
 .text-xxl {
     font-size: 50px;
 }
 
+/* tienda tarjetas*/
 
-.dos {
-    width: 100%;
+
+.card-all {
+    width: 85%;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    gap: 25px;
+    gap: 20px;
   
 }
 
-.tres {
-    height: 372px;
-    width: 403px;
-    background-color:darkolivegreen;
-}
+
 /* GRIDS ALL*/
 
 
