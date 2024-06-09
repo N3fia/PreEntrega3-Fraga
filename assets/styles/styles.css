@@ -50,17 +50,17 @@ footer {
 }
 
 .romero {
-  background-image: url("images/romero.png");
+  background-image: url("../images/romero.png");
   height: 100vh;
 }
 
 .skyline {
-  background-image: url("assets/images/skyline.png");
+  background-image: url("../images/skyline.png");
   height: 100vh;
 }
 
 .bubbles {
-  background-image: url("../assets/images/bubbles.png");
+  background-image: url("../images/bubbles.png");
   height: 100vh;
 }
 
