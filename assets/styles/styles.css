@@ -45,17 +45,17 @@ footer {
 
 /* BACKGROUNDS */
 .cerezo {
-  background-image: url("../assets/images/cerezoJapones.png");
+  background-image: url("../images/cerezoJapones.png");
   height: 100vh;
 }
 
 .romero {
-  background-image: url("../assets/images/romero.png");
+  background-image: url("images/romero.png");
   height: 100vh;
 }
 
 .skyline {
-  background-image: url("images/skyline.png");
+  background-image: url("assets/images/skyline.png");
   height: 100vh;
 }
 
