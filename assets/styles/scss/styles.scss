@@ -87,8 +87,6 @@ main {
  } 
 
 
-
-
 /* ALIGNMENTS GENERAL */
 
 .ancho-texto {
@@ -132,6 +130,37 @@ main {
 .text-xxl {
     font-size: 50px;
 }
+
+
+.horario {
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom, red,white );
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    justify-self: center;
+   
+  }
+
+  .scale{
+    animation: scale 3s infinite linear;
+
+    @keyframes scale{
+        0% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+      }
+  }
+
+  
+
+  
+
 
 
 /* CONTACTO */
@@ -187,7 +216,7 @@ main {
 }
 
 /*MEDIA QUERY*/
-@media (max-width: 560p) {
+@media (max-width: 560) {
     .foto-vertical {
         grid-row: span 1;
     }
@@ -200,17 +229,31 @@ main {
         grid-column: span 1;
         grid-row: span 1;
     }
+
+    
 }
 
-
-@media  (max-width: 600px){
-    .logo-placeholder {
-        background-color: rgb(244, 127, 255);
-    }
-}
 
 @media only screen and (max-width: 560px) {
-    .contacto {
-      min-width: 100vw; /* Adjust the width as per your design */
+    .logo-placeholder {
+        background-color: rgb(244, 127, 255);
+        transform: scale(0.8);
     }
+    .contacto {
+      min-width: 100vw;
+    }
+
+    .horario {
+        display: none;
+    }
+
+    .row {
+            padding:0 5% 0 ;
+          }
+
   }
+
+  
+.row {
+    padding: 0 10% 0;
+}
