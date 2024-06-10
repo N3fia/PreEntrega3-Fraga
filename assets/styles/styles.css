@@ -64,12 +64,6 @@ footer {
   height: 100vh;
 }
 
-.blank-opacity {
-  background-color: white;
-  opacity: 80%;
-  border-radius: 5%;
-}
-
 /* ABOUT SPECIFICS */
 .artist-profile {
   margin: auto;
@@ -141,6 +135,7 @@ footer {
 }
 
 .titulo {
+  text-shadow: 2px 4px white;
   text-align: center;
 }
 
@@ -166,7 +161,6 @@ footer {
   grid-column-gap: 2px;
   overflow: scroll;
   justify-content: center;
-  grid-template-columns: 1;
 }
 
 /* GRIDS GALLERY */
