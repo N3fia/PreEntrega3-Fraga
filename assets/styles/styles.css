@@ -45,12 +45,12 @@ footer {
 
 /* BACKGROUNDS */
 .cerezo {
-  background-image: url("../images/cerezoJapones.png");
+  background-image: url("../images/cerezoJapones.jpg");
   height: 100vh;
 }
 
 .romero {
-  background-image: url("../images/romero.png");
+  background-image: url("../images/romero.jpg");
   height: 100vh;
 }
 
@@ -88,17 +88,6 @@ footer {
 }
 
 /* CONTACT */
-.contact {
-  margin: 25px auto auto auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  padding-top: 0;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 /* ALIGNMENTS GENERAL */
 .ancho-texto {
   max-width: 400px;
@@ -141,15 +130,6 @@ footer {
 
 .text-xxl {
   font-size: 50px;
-}
-
-/* tienda tarjetas*/
-.card-all {
-  width: 85%;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  gap: 20px;
 }
 
 /* GRIDS ALL*/
